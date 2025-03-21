@@ -1,10 +1,7 @@
 package com.cycolabs.p34themoviesapp
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     //app uder layers
@@ -40,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     //popular-https://api.themoviedb.org/3/movie/popular?api_key=48de69bbc8e87295f52bb2090d478d27
 
     //1-Add dependencies
-    //2-CReate data classes
+    //2-Ceeate data class: Movie, MovieList
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

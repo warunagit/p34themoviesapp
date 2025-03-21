@@ -71,7 +71,7 @@ dependencies {
     implementation("androidx.room:room-ktx:$room_version")
 
     //coroutines
-    val coroutine_version = "2.6.1"
+    val coroutine_version = "1.6.1"
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version")
 
     //Dagger
@@ -80,7 +80,7 @@ dependencies {
     annotationProcessor ("com.google.dagger:dagger-compiler:$dagger_version")
 
     //Retrofit
-    val retrofit_version = "2.12.1"
+    val retrofit_version = "2.9.0"
     implementation ("com.squareup.retrofit2:retrofit:$retrofit_version")
     //GSON
     implementation ("com.squareup.retrofit2:converter-gson:$retrofit_version")
