@@ -31,7 +31,16 @@ class MainActivity : AppCompatActivity() {
     //Contains 3 categories, Movies, TV Shows, Artists
     //For 3 categories, need 6 use cases. 3 for receiving and 3 for update data
 
+    //JSON -> Retrofit -> POJO -> Room DB, App UI
+    //TheMovieDB.org - warunarjg,Temp1234#
+    //API Read Access Token
+    //eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0OGRlNjliYmM4ZTg3Mjk1ZjUyYmIyMDkwZDQ3OGQyNyIsIm5iZiI6MTc0MjQ4MjE2MS44MDYwMDAyLCJzdWIiOiI2N2RjMmFmMTA4NzQ5ZWZlMzRlN2IzMzEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.U3gHpeZwObSYgJ9ZF5SwncceylDs9dupQDEJtJn0OCw
+    //API Key
+    //48de69bbc8e87295f52bb2090d478d27
+    //popular-https://api.themoviedb.org/3/movie/popular?api_key=48de69bbc8e87295f52bb2090d478d27
+
     //1-Add dependencies
+    //2-CReate data classes
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
