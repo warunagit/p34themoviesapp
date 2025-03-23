@@ -38,6 +38,12 @@ class MainActivity : AppCompatActivity() {
 
     //1-Add dependencies
     //2-Ceeate data class: Movie, MovieList
+    //3-add JSONToKotlinClass plugin from market place
+    //4-create new class, copy paste json data, then generate: Kotlin data class from JSON
+    //it will create class: Result, regarding to the JSON data with contain properties
+    //5-create package: api
+    //6-creat api interface for search: TMDBService
+    //
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
