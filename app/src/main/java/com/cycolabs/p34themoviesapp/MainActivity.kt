@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     //Data - Source of all abstract data and models.
     //Framework - Layer that interacts with SDK and provides custom implementations for data layer
 
-    //Top 5 movies are dynamics.
+    //Top 5 movies are dynamic.
     //should allow user to refresh and receive updated data from API
     //Contains 3 categories, Movies, TV Shows, Artists
     //For 3 categories, need 6 use cases. 3 for receiving and 3 for update data
