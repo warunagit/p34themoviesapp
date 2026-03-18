@@ -42,8 +42,8 @@ class MainActivity : AppCompatActivity() {
     //4-create new class, copy paste json data, then generate: Kotlin data class from JSON
     //it will create class: Result, regarding to the JSON data with contain properties
     //5-create package: api
-    //6-creat api interface for search: TMDBService
-    //
+    //6-create api interface for search: TMDBService
+    //Mark entity classes to make tables with the annotation: @Entity
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
