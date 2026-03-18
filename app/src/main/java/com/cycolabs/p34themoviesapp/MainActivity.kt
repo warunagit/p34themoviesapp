@@ -43,7 +43,13 @@ class MainActivity : AppCompatActivity() {
     //it will create class: Result, regarding to the JSON data with contain properties
     //5-create package: api
     //6-create api interface for search: TMDBService
-    //Mark entity classes to make tables with the annotation: @Entity
+    //7-Mark entity classes to make tables with the annotation: @Entity
+    //8-Make Data Access Object - DAO
+    //Create new package: db
+    //create new DAO interface with Dao annotation: MovieDao
+    //need three functions; insert,
+    //9-create room database class: db\TMDBDatabase
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
